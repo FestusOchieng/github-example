@@ -14,7 +14,7 @@ Now that you have been equipped with the skills and the tools to use location da
 • Bogotá has 20 different Localities (Districts) and we aim to find the best one.
 • We need to choose a Locality that has good amount of customers and low amount of competition.
 
-DATA
+2:DATA
 
 • To help David in his search we will need to access following data:
 • The Localities of Bogotá, Colombia from Wikipedia: https://es.wikipedia.org/wiki/Anexo:Localidades_de_Bogot%C3%A1
@@ -25,7 +25,9 @@ DATA
 • the high schools venues of the Localities
 • the universities venues of the Localities
 • We will then leverage the data in order to determine which locality is the most appropriate in order to locate the burger joint.
-Methodology
+
+3:METHODOLOGY
+
 • For each locality, all office, school, university and burger joints venues data have been collected from Foursquare.
 • Then for each locality, the sums of the office, school, university and burger joints were computed.
 • For each of this 4 categories, a weight (or penalty) has been defined according to what David considers the most important.
