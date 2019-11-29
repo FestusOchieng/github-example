@@ -31,3 +31,12 @@ Now that you have been equipped with the skills and the tools to use location da
 • For each locality, all office, school, university and burger joints venues data have been collected from Foursquare.
 • Then for each locality, the sums of the office, school, university and burger joints were computed.
 • For each of this 4 categories, a weight (or penalty) has been defined according to what David considers the most important.
+• Burger Joints have been weighted with -1, since Paolo wants to avoid concurrence.
+• Schools have been weighted with 1, since student are good customers.
+• Universities have been weighted with 1.5, since students are good customers.
+• Offices have been weighted with 2, since employees are even better customers.
+• Note that the weights can be modified according to the importance of each category.
+• Lastly, a score was computed for each locality as the weighted sum of the number of venues in each of the 4 categories (school, university, office, burger joints).
+
+
+
